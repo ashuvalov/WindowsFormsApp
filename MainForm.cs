@@ -16,6 +16,7 @@ namespace WindowsFormsApp
         private void ButtonGoClick(object sender, EventArgs e)
         {
             avaloniaWindow = new AvaloniaWindow();
+            avaloniaWindow.Show();
         }
     }
 }
